@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<import target="preview1">
+<shop id="8">
+	<categories>
+		<category>
+			<action>import</action>
+			<id>210</id>
+			<parentId>120</parentId>
+			<categoryName>Dinghy und Jolle</categoryName>			
+			<sortNumber>7</sortNumber>
+			<image>0173131_c1_FS14ix_200x200.jpg</image>
+		</category>
+		<category>
+			<action>import</action>
+			<id>110</id>
+			<parentId>100</parentId>
+			<categoryName>Repair resin</categoryName>			
+			<sortNumber>4</sortNumber>
+			<image>0223356_c1_FS15ix_200x200.jpg</image>
+		</category>
+		<category>
+			<action>import</action>
+			<id>100</id>
+			<parentId>0</parentId>
+			<categoryName>Sailing trousers men's</categoryName>			
+			<sortNumber>1</sortNumber>
+			<image>0247591_c2_FS13ix_200x200.jpg</image>
+		</category>
+		<category>
+			<action>import</action>
+			<id>120</id>
+			<parentId>100</parentId>
+			<categoryName>Rubber boots</categoryName>			
+			<sortNumber>2</sortNumber>
+			<image>0991891_ff_e1_FS16.jpg</image>
+		</category>
+	</categories>
+</shop>
+</import>

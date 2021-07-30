@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<import target="preview1">
+<shop id="1">
+	<referenceArticles>
+		<referenceArticle>
+			<orderNumber>0200620</orderNumber>
+			<type>Textil</type>
+			<action>import</action>
+			<name>Marinepool Tec Herren-Bordhose</name>
+			<description>Die leichte Tec Bordhose für Herren von Marinepool mit hohem Stretch-Anteil ist robust, pflegeleicht und superbequem. Das reißfeste Material ist zudem wasser- und schmutzabweisend.Die Funktionshose hat jeweils 2 Schenkel-, Vorder- und Gesäßtaschen und  Verstärkungen im Knie- und Gesäßbereich. (ohne Gürtel)</description>
+			<status>1</status>
+			<categoryRelations>
+				<categoryRelation>
+					<categoryId>120</categoryId>
+					<sortOrderCategory>59</sortOrderCategory>
+					<visible>true</visible>
+				</categoryRelation>
+				<categoryRelation>
+					<categoryId>110</categoryId>
+					<sortOrderCategory>177</sortOrderCategory>
+					<visible>true</visible>
+				</categoryRelation>				
+			</categoryRelations>
+			<price>
+				<grossPrice>129.95</grossPrice>
+				<priceNet>109.201680672</priceNet>				
+				<amount>1</amount>								
+			</price>			
+		</referenceArticle>
+		<referenceArticle>
+			<orderNumber>0327530</orderNumber>
+			<type>Technik</type>
+			<action>import</action>
+			<name>Lowrance Hook-4x Fishfinder &amp; HST/WSBL Spiegelheckgeber 83/200kHz</name>
+			<description>Der Lowrance® HOOK-x ist ein Fishfinder, der Ihnen bewährte Eigenschaftenmit einem hervorragenden Preis-Leistungs-Verhältnis bietet - und das in dergewohnt hohen Qualität, die Angler von Lowrance erwarten dürfen. Das HOOK-x vereint die CHIRP Sonar- und die DownScan Imaging-Technologie, um Ihnen die Unterwasserwelt unter Ihrem Boot klar und vollständig anzuzeigen.Das HOOK-4x verfügt über ein brillantes Farbdisplay und ein leistungsstarkes Sonar mit verbesserter Sonarempfindlichkeit, erstklassiger Zieltrennung und überragender Rauschunterdrückung, wodurch die Erkennung von Köderfischen und Fischzielen erleichtert wird. Technische Daten: Auflösung: 480 x 272 - Power Output: RMS (PTP)  Max 500W RMS - Frequenzbereich: 455/800 kHz (DownScan Imaging), Med, High (CHIRP), - 83kHz/200kHz - Sprachen: 30 - Operating Voltage: 12V DC (10-17V DC min-max). </description>
+			<status>1</status>
+			<categoryRelations>
+				<categoryRelation>
+					<categoryId>110</categoryId>
+					<sortOrderCategory>29</sortOrderCategory>
+					<visible>false</visible>
+				</categoryRelation>
+				<categoryRelation>
+					<categoryId>120</categoryId>
+					<sortOrderCategory>41</sortOrderCategory>
+					<visible>true</visible>
+				</categoryRelation>
+				<categoryRelation>
+					<categoryId>220</categoryId>
+					<sortOrderCategory>65</sortOrderCategory>
+					<visible>true</visible>
+				</categoryRelation>
+			</categoryRelations>
+			<price>
+				<grossPrice>79.95</grossPrice>
+				<priceNet>67.184873949</priceNet>
+				<amount>1</amount>
+			</price>			
+		</referenceArticle>
+		<referenceArticle>
+			<orderNumber>0333030</orderNumber>
+			<type>Textil</type>
+			<action>import</action>
+			<name>Musto BR1 Sardinia Jacke Herren</name>
+			<description>Als ideale Lösung für Einsteiger, Küsten-, Inshore- und Binnensegler, bietet die Musto BR1 Serie optimalen Schutz für Segler. Das BR1-Material der Segeljacke basiert auf einem beschichteten hydrophilen 2-Lagen-Material.  Die BR1 Kollektion zählt zu MUSTOs Standard Serie und bietet Produkte, die allesamt über hohe Wasser - und Winddichte und Atmungsaktivität verfügen. Alle BR1 Produkte weisen eine Wassersäule von 5.000 mm und eine Atmungsaktivität von 3.000g/m2 auf. Auch bei wärmeren Temperaturen bleibt der ein oder andere Regenschauer nicht aus. Die Musto Sardinia Jacke für Herren ist für Segeltouren in solchen Gebieten ideal. Durch die Polyamid-Oberfläche und die getapten Nähte ist die Segeljacke absolut wasserdicht. Die Kapuze ist verstellbar und im Kragen verstaubar, falls sich das schöne Wetter dann doch hält. Durch eine hohe Atmungsaktivität gerät man auch bei körperlicher Anstrengung nicht ins Schwitzen. Die Musto Sardinia Jacke ist neben ihrer Funktionalität auch als Funktionsjacke an Land die perfekte Bekleidung. Die Musto BR1 Sardinia Jacke für Herren ist mit folgenden Details ausgestattet: Fleece gefütterter Innenkragen, 1 Brusttasche und 2 Eingriffstaschen, Saumabschluss mit elastischer Kordel weitenregulierbar, Ärmel weitenregulierbar, sehr leicht durch das angenehme Meshfutter, mit  YKK® VISLON® Reißverschluss.</description>
+			<status>1</status>			
+			<categoryRelations>
+				<categoryRelation>
+					<categoryId>100</categoryId>
+					<sortOrderCategory>79</sortOrderCategory>
+					<visible>true</visible>
+				</categoryRelation>
+				<categoryRelation>
+					<categoryId>120</categoryId>
+					<sortOrderCategory>4</sortOrderCategory>
+					<visible>true</visible>
+				</categoryRelation>
+				<categoryRelation>
+					<categoryId>210</categoryId>
+					<sortOrderCategory>22</sortOrderCategory>
+					<visible>true</visible>
+				</categoryRelation>				
+			</categoryRelations>
+			<price>
+				<grossPrice>179.95</grossPrice>
+				<priceNet>151.218487394</priceNet>
+				<amount>1</amount>
+			</price>			
+		</referenceArticle>
+		<referenceArticle>
+			<orderNumber>0333070</orderNumber>
+			<type>Textil</type>
+			<action>delete</action>
+			<name>Musto BR1 Inshore Jacke Damen</name>
+			<description>Das Material der BR1 Inshore Segeljacke von Musto basiert auf einem beschichteten hydrophilen 2-Lagen-Material. Die BR1 Kollektion zählt zu MUSTOs Standard Serie und bietet Produkte, die allesamt über hohe Wasserdichte, Winddichte und Atmungsaktivität verfügen. Jederzeit warm und trocken mit der BR1 Kollektion. Alle BR1 Produkte weisen eine Wassersäule von 5.000 mm und eine Atmungsaktivität von 3.000g/m2 auf. Die Musto BR1 Inshore Jacke ist ideal für den Tagessegler an der Küste oder in Küstennähe und mit folgenden Details ausgestattet: Fleece-gefütterter Kragen, verstellbare und verstaubare Kapuze, dezent verarbeitete Reflektoren für erhöhte Sichtbarkeit, abriebfester Sitzbereich und Saum, elastischer Schulter und Unterarmbereich.</description>
+			<status>1</status>
+			<categoryRelations>
+				<categoryRelation>
+					<categoryId>110</categoryId>
+					<sortOrderCategory>78</sortOrderCategory>
+					<visible>true</visible>
+				</categoryRelation>				
+			</categoryRelations>
+			<price>
+				<grossPrice>199.95</grossPrice>
+				<priceNet>168.025210084</priceNet>				
+				<amount>10</amount>				
+			</price>			
+		</referenceArticle>
+		<referenceArticle>
+			<orderNumber>0343650</orderNumber>
+			<type>Textil</type>
+			<action>import</action>
+			<name>Musto MPX Race Lite Shorts</name>
+			<description>Die Musto MPX GORE-TEX® Race Lite vervollständigt die Race Serie. MUSTO fordert Sie mit der MPX Race Lite Kollektion zum Wettkampf auf. Hier steht Action im Vordergrund und Mobilität gewinnt eine ganz neue Dimension. Kompromisslos und konsequent zielen Konzept, Schnitt und Design auf uneingeschränkt sportliche Bewegungsfreiheit ab. Das verwendete 3-Lagen GORE-TEX® Pro Shell Material ist zwar 30% leichter und 20% atmungsaktiver als das MPX Offshore, doch 100% wasserdicht. Seine Bewegungsfreiheit verdankt das MPX Race zudem den minimal verarbeiteten Nähten. Dank des Nylon Materials fasst sich die MPX Race Kollektion geschmeidiger an und weist auch eine höhere Abriebfestigkeit auf, was die gesamte Serie noch strapazierfähiger macht. Vom Maxi-Weltmeister bis zum Drachen-Gold-Cup-Gewinner, ob Jollen- oder Sportbootsegler - sie alle vertrauen auf MUSTO MPX Race Lite. Die MPX Race Produkte weisen eine Wassersäule von &gt; 28.000 mm und einen RET-Wert von &lt; 6 m2 Pa/W auf. Details: Die MPX GORE-TEX Race Lite Shorts von Musto haben zusätzlich eine Verstärkung im Sitzbereich, einen elastischen, verstellbaren Saum im Rückenbereich, wasserabweisende YKK VISLON Reißverschlüsse und reflektierende Innennähte für bessere Sichtbarkeit.</description>
+			<status>0</status>
+			<categoryRelations>
+				<categoryRelation>
+					<categoryId>210</categoryId>
+					<sortOrderCategory>1</sortOrderCategory>
+					<visible>true</visible>
+				</categoryRelation>
+				<categoryRelation>
+					<categoryId>150</categoryId>
+					<sortOrderCategory>32</sortOrderCategory>
+					<visible>true</visible>
+				</categoryRelation>
+			</categoryRelations>
+			<price>
+				<grossPrice>289.95</grossPrice>
+				<priceNet>243.655462184</priceNet>				
+				<amount>1</amount>				
+			</price>			
+		</referenceArticle>
+	</referenceArticles>
+</shop>
+</import>

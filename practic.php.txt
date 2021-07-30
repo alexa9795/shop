@@ -1,0 +1,56 @@
+Import categories and products
+
+Given two xml files which contains data of categories and producs import them into a database based on the following rules and mappings:
+
+Category table consists of fields: id (required), parentId (required), name (required), order, image
+Product table consists of fields: id (autoincrement), number (required), type (required), name, description, active
+The table which stores connection between categories and products consists of fields: id(autoincrement), categoryId (required), productNumber (required), order, visible
+Price table consists of fields: id, productNumber (required), grossPrice (required), priceNet (required), amount
+
+Categories (import_category.xml)
+- import all items which have node <action> with value import
+
+Mapping xml node to db table field
+id = id
+parentId = parentId
+categoryName = name
+sortNumber = order
+image = image
+
+Images are stored in image folder.
+
+Products (import_product.xml)
+- import all items which have node <action> with value import
+
+Mapping xml node to db table field
+orderNumber = number
+type = type
+name = name
+description = description
+status = active
+
+Connection between categories and products is given by <categoryRelations> node. 
+
+Mapping xml node to db table field
+categoryId = categoryId 
+productNumber = orderNumber
+order = sortOrderCategory
+visible = visible
+
+Product prices are stored in a separate table, which store data from <price> node
+
+Mapping xml node to db table field
+productNumber = orderNumber
+grossPrice = grossPrice
+priceNet = priceNet
+amount = amount
+
+Hints:
+1. Create a cli command for every import file
+2. Store categories images in /public folder and make them accessible from public.
+
+
+
+3. List all categories name and all assigned active products numbers and names to the respective category in descending order. The relation between a category and a product should be active also.
+4. List all ids of not found categories on product import.
+5. Find how many visible products has category "Dinghy und Jolle" which has price bigger than 200.

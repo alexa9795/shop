@@ -1,0 +1,55 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="card bg-light mb-3 mt-3">
+                    <div class="card-body">
+                        <div class="card-header">Check this out</div>
+                        <ul>
+                            <br>
+                            <li>List all categories name and all assigned active products numbers and names to the respective category in descending order. </li>
+                            <br>
+                            <div>
+                                    <table class="table col-md-6">
+                                        <tr>
+                                            <th>Category Name</th>
+                                            <th>Product Name</th>
+                                            <th>Product Number</th>
+                                        </tr>
+                                        {% for item in categoriesWithActiveProducts %}
+                                            <tr>
+                                                <td>{{ item.categoryName }}</td>
+                                                <td>{{ item.productName }}</td>
+                                                <td>{{ item.productNumber }}</td>
+                                            </tr>
+                                        {% endfor %}
+                                    </table>
+                            </div>
+                            <br>
+                            <li>Find how many visible products has category "Dinghy und Jolle" which has price bigger than 200.</li>
+                            <div>
+                                <table class="table col-md-6">
+                                    <tr>
+                                        <th>Category Name</th>
+                                        <th>Product Name</th>
+                                        <th>Gross price</th>
+                                        <th>Net price</th>
+                                    </tr>
+                                    {% for item in categoriesWithActiveProducts %}
+                                        <tr>
+                                            <td>{{ item.categoryName }}</td>
+                                            <td>{{ item.grossPrice }}</td>
+                                            <td>{{ item.priceNet }}</td>
+                                        </tr>
+                                    {% endfor %}
+                                </table>
+                            </div>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}
